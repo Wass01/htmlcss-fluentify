@@ -50,7 +50,7 @@ nav{
   display: inline-block;
   float: left;
   margin-top: 8px;
-  margin-right: 20px;
+  margin-right: 15px;
 }
 
 nav ul{
@@ -59,14 +59,14 @@ nav ul{
 
 nav ul li{
   list-style: none;
-  text-transform: uppercase;
   display: inline-block;
   float: left;
   margin-left: 15px;
 }
 
-nav ul li a{
+a{
   text-decoration: none;
+  text-transform: uppercase;
   color: #ffffff;
 }
 
@@ -75,6 +75,29 @@ nav ul li a{
 }
 
 .but-green{
-  border-radius: 3px;
+  border-radius: 5px;
   background-color: #7CBB02;
+  padding: 10px;
 }
+
+#but-login{
+  border-radius: 5px;
+  border: 2px solid #ffffff;
+  padding: 10px 25px;
+}
+
+.h-nav{
+  height: 80px;
+}
+
+.bg-header{
+  background-image: url("../img/background-header.png");
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-color: #0c325a;
+  background-size: 1800px;
+}
+/* header */
+
+/* main */
