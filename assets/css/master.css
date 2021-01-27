@@ -46,6 +46,8 @@ nav{
   width: 100%;
 }
 
+
+
 .logo{
   display: inline-block;
   float: left;
@@ -70,6 +72,7 @@ a{
   color: #ffffff;
 }
 
+
 .text-right{
   float: right;
 }
@@ -91,16 +94,32 @@ a{
 }
 
 
-
 .bg-header{
   background-image: url("../img/background-header.png");
-  height: 700px;
+  height: 425px;
   width: 100%;
   background-repeat: no-repeat;
   background-color: #0c325a;
   background-size: 1000px;
-
+  background-position: right;
 }
+
 /* header */
 
 /* main */
+.title{
+  position: relative;
+}
+.title h1{
+  color: #ffffff;
+  width: 100%;
+  font-size: 50px;
+  font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 70px;
+}
+
+.title a{
+  position: absolute;
+  top: 200px;
+}
