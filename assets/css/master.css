@@ -90,9 +90,7 @@ a{
   height: 80px;
 }
 
-.position{
-  position: relative;
-}
+
 
 .bg-header{
   background-image: url("../img/background-header.png");
@@ -102,9 +100,6 @@ a{
   background-color: #0c325a;
   background-size: 1000px;
 
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 /* header */
 
