@@ -65,7 +65,7 @@ nav ul li{
   font-size: 12px;
 }
 
-a{
+.a-nav{
   text-decoration: none;
   text-transform: uppercase;
   color: #ffffff;
@@ -163,3 +163,46 @@ a{
   border-bottom: 1px solid #808080;
   width: 150px;
 }
+
+.col-33 p{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #808080;
+  margin-top: 40px;
+  font-size: 18px;
+}
+
+hr{
+  margin-top: 40px;
+}
+
+/* mountain e title-right */
+.m-top{
+  margin-top: 50px;
+}
+
+.m-top img{
+  height: 450px;
+}
+
+.title-right{
+  font-family: 'Roboto', sans-serif;
+}
+
+.title-right h2{
+  font-size: 50px;
+}
+
+.title-right p{
+  font-size: 25px;
+  color: #808080;
+  margin-top: 20px;
+}
+
+.title-right a{
+  color: #82A6CE;
+  font-size: 20px;
+  position: relative;
+  top: 40px;
+}
+/* mountain e title-right */
