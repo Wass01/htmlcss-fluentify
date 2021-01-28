@@ -97,17 +97,16 @@ a{
 
 .bg-header{
   background-image: url("../img/background-header.png");
-  height: 550px;
-  width: 100%;
+  /* height: 550px; */
   background-repeat: no-repeat;
   background-color: #0c325a;
-  background-size: 60%;
+  background-size: 65%;
   background-position:110% 100%;
 }
 
 /* header jumbo */
 .title{
-  padding-top: 150px;
+  padding-top: 140px;
   padding-bottom: 200px;
 }
 
@@ -115,8 +114,21 @@ a{
   color: #ffffff;
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 60px;
+}
+
+.title .but-green{
+  padding: 20px;
+  position: relative;
+  top: 60px;
 }
 /* header jumbo */
 /* header */
 
 /* main */
+
+.t-center{
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
