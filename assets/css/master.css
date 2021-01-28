@@ -50,8 +50,6 @@ nav{
 
 .logo{
   display: inline-block;
-  float: left;
-  margin-top: 8px;
   margin-right: 20px;
 }
 
@@ -90,9 +88,9 @@ a{
   padding: 10px 25px;
 }
 
-.h-nav{
+/* .h-nav{
   height: 80px;
-}
+} */
 
 
 .bg-header{
@@ -106,22 +104,20 @@ a{
 
 /* header jumbo */
 .title{
-  padding-top: 140px;
-  padding-bottom: 200px;
+  padding-top: 160px;
+  padding-bottom: 210px;
 }
 
 .title h1{
   color: #ffffff;
   font-size: 50px;
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  top: 60px;
 }
 
 .title .but-green{
   padding: 20px;
   position: relative;
-  top: 60px;
+  top: 30px;
 }
 /* header jumbo */
 /* header */
@@ -131,4 +127,39 @@ a{
 .t-center{
   font-family: 'Roboto', sans-serif;
   text-align: center;
+  margin-top: 25px;
+}
+
+.t-center > p{
+  color: #808080;
+}
+
+.bg-grey{
+  height: 120px;
+  line-height: 35px;
+  background-color: #d3d3d3;
+}
+
+.col-33 > img{
+  height: 250px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 2em;
+}
+
+.col-33 h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  color: #7cbb02;
+  margin-top: 10px;
+}
+
+.line-hor{
+  margin: 0 auto;
+  margin-top: 40px;
+  border-bottom: 1px solid #808080;
+  width: 150px;
 }
