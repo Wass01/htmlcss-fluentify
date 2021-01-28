@@ -41,8 +41,7 @@
 /* header */
 nav{
   background-color: #0c325a;
-  height: 80px;
-  line-height: 80px;
+  height: 120px;
   width: 100%;
 }
 
@@ -53,8 +52,13 @@ nav{
   margin-right: 20px;
 }
 
+.logo img{
+  vertical-align: middle;
+  padding-top: 20px;
+}
 nav ul{
   display: inline-block;
+    vertical-align: middle;
 }
 
 nav ul li{
@@ -63,7 +67,9 @@ nav ul li{
   float: left;
   margin-left: 25px;
   font-size: 12px;
+  margin-top: 35px;
 }
+
 
 .a-nav{
   text-decoration: none;
@@ -74,6 +80,7 @@ nav ul li{
 
 .text-right{
   float: right;
+  padding-top: 5px;
 }
 
 .but-green{
@@ -87,11 +94,6 @@ nav ul li{
   border: 2px solid #ffffff;
   padding: 10px 25px;
 }
-
-/* .h-nav{
-  height: 80px;
-} */
-
 
 .bg-header{
   background-image: url("../img/background-header.png");
