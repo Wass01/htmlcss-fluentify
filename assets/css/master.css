@@ -123,20 +123,24 @@ nav ul li{
 /* header */
 
 /* main */
-
 .t-center{
   font-family: 'Roboto', sans-serif;
   text-align: center;
   margin-top: 25px;
 }
 
+.t-center h2{
+  font-size: 30px;
+}
+
 .t-center > p{
   color: #808080;
+  font-size: 20px;
 }
 
 .bg-grey{
-  height: 120px;
-  line-height: 35px;
+  height: 160px;
+  line-height: 50px;
   background-color: #d3d3d3;
 }
 
@@ -177,11 +181,12 @@ hr{
 }
 
 /* mountain e title-right */
-.m-top{
+.mar-tb{
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
-.m-top img{
+.mar-tb img{
   height: 450px;
 }
 
@@ -206,3 +211,54 @@ hr{
   top: 40px;
 }
 /* mountain e title-right */
+/* main */
+
+/* footer */
+/* foot left */
+.foot-left > h2{
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  top: 50px;
+}
+/* foot left */
+
+/* foot right */
+.foot-right{
+  float:right;
+}
+.foot-right p {
+  display: inline-block;
+  font-size: 20px;
+  color: #808080;
+}
+
+select{
+  border: none;
+  background-color: #d3d3d3;
+  color: #808080;
+  font-size: 20px;
+  border-bottom: 2px solid #808080;
+  width: 170px;
+  margin: 0 30px;
+}
+
+.foot-right .but-green{
+  padding: 20px;
+}
+/* foot right */
+/* foot help */
+#help-fixed{
+  position: fixed;
+  bottom: 0;
+  right: 180px;
+  z-index: 9999;
+}
+
+.but-help{
+  border-radius: 5px;
+  background-color: #7CBB02;
+  padding: 0 20px;
+}
+/* foot help */
+/* footer */
